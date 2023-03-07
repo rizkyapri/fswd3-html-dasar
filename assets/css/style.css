@@ -1,0 +1,87 @@
+:root {
+    /* Nilai Konstan */
+    --background-color: peachpuff;
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --font-size: 20px;
+  
+    /* Warna */
+    --color-white: #fff;
+    --color-darktur: darkturquoise;
+    --color-gray: #ccc;
+    --color-khaki: khaki;
+  }
+  
+body{
+    background-color: var(--background-color);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+}
+
+header h1 {
+    text-align: center;
+}
+
+.container .card {
+    width: 20%;
+    background-color: var(--primary-color);
+    border: 4px solid var(--primary-color);
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.container .card5 {
+    width: 20%;
+    background-color: var(--secondary-color);
+    border: 4px solid var(--secondary-color);
+    border-radius: 7px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.card img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+
+.card5 img {
+    width: 100%;
+    height: 250px;
+    border-radius: 5px 5px 0 0;
+}
+.card-content {
+    padding: 10px;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 20px;
+}
+/* Warna */
+
+.card h1{
+    text-align: center;
+    color: var(--color-khaki);
+}
+
+.card p{
+    font-size: 20px;
+    color: var(--color-gray);
+}
+
+.card5 h1{
+    text-align: center;
+    color: var(--color-darktur);
+}
+
+.card5 p{
+    font-size: 20px;
+    color: var(--color-white);
+}
