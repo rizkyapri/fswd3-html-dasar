@@ -1,0 +1,256 @@
+#flex {
+    display: inline-block;
+    float: right;
+    margin: 40px;
+}
+#grid {
+    display: inline-block;
+    float: left;
+    margin: 20px;
+}
+
+body{
+    background-color: #804674;
+}
+
+/* GRID LAYOUT CSS */
+.grid-container {
+    width: 370px;
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:  auto auto auto;
+    justify-content: center;
+    background-color: aqua;
+    grid-row-gap: 7px;
+    grid-column-gap: 10px;
+    text-align: center;
+}
+
+.grid-item {
+    background-color: blueviolet;
+    padding: 30px;
+    align-content: space-between;
+    display: flex;
+}
+
+i{
+    margin:auto;
+    color: white;
+    font-size: 24px;
+}
+
+.col-row-1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    width: 100px;
+    height: 110px;
+    margin-top: 10px;
+    background-color: red;
+}
+
+.col-row-2{
+    grid-column-start: 2;
+    grid-column-end: 4; 
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    background-color: #6096B4;
+}
+
+.col-row-3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    background-color: #A7727D;
+}
+
+.col-row-4{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #FD8A8A;
+}
+
+.col-row-5{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    width: 100px;
+    height: 110px;
+    background-color: #D0B8A8;
+}
+
+.col-row-6{
+    grid-row-start: 3;
+    grid-row-end: 5;
+    background-color: #DEBACE;
+}
+
+.col-row-7{
+    grid-row-start: 4;
+    grid-row-end: 5;
+    background-color: #E97777;
+}
+
+.col-row-8{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    background-color: #554994;
+}
+
+.col-row-9{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: #7D9D9C;
+}
+.col-row-10{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    margin-bottom: 10px;
+    background-color: #9CB4CC;
+}
+
+/* END GRID CSS */
+
+/* FLEX LAYOUT CSS */
+.flex-container {
+    width: 370px;
+    height: auto;
+    background-color: #A5F1E9;
+    padding: 15px;
+  }
+  
+  .flex-item {
+    width: 370px;
+    height: 326px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .box1 {
+    width: 180px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .konten {
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .box2 {
+    width: 180px;
+    height: 326px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .konten-box2 {
+    height: 70px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .konten1-box2 {
+    height: 246px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .konten1-box2-1 {
+    height: 246px;
+    width: 85px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .konten2, .konten5 {
+    height: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .konten3, .konten4 {
+    height: 78px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .flex-item2 {
+    padding-top: 10px;
+    width: 370px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .box3, .box4 {
+    width: 370px;
+    height: 80px;
+    display: flex;
+    gap: 10px;
+  }
+  
+  .box4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .konten6 {
+    width: 274px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .konten7 {
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* coloring background box */
+  .konten-1{
+    background-color: #F7C04A;
+  }
+  .konten-2{
+    background-color: #F94A29;
+  }
+  .konten-3{
+    background-color: #D9ACF5;
+  }
+  .konten-4{
+    background-color: #FFDB89;
+  }
+  .konten-5{
+    background-color: #CF4DCE;
+  }
+  .konten-6{
+    background-color: #FF8E9E;
+  }
+  .konten-7{
+    background-color: #332FD0;
+  }
+  .konten-8{
+    background-color: #B6E2A1;
+  }
+  .konten-9{
+    background-color: #3E6D9C;
+  }
+  .konten-10{
+    background-color: #FBFFB1;
+  }
+/* END FLEX CSS */
