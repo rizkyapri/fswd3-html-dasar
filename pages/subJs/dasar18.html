@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Function</title>
+</head>
+
+<body>
+  <h3 style="text-align: center">Untuk mengetahui penggunaan dimohon klik kanan lalu inspect lalu pilih console</h3>
+  <h3 style="text-align: center">Atau bisa juga menggunakan shortcut F12 kemudian pilih console</h3>
+
+  <script>
+    /* pada fungsi ini menggunakan basic funtion */
+    function salam() {
+      console.log("Hello World!");
+      alert("Hello Rizky Apriansyah!");
+    }
+
+    salam();
+
+    /* fungsi ekspresi */
+    let sapaan = function () {
+      console.log("Hai, fungsi ekspresi disini!");
+    }
+
+    sapaan();
+
+    /* Pada fungsi ini menggunakan panah fungsi */
+    var salam1 = () => {
+      console.log("This function using arrow function");
+    }
+
+    var salam2 = () => console.log("This function using arrow function tipe kedua");
+
+    salam1();
+    salam2();
+
+
+
+    /* let employee = {
+      name: "Rizky Apriansyah",
+      age: 21,
+      address: "Tangerang",
+    }; */
+
+      // console.log("Saya adalah Mahasiswa yang bernama " + employee.name); /* Petik ganda */
+      // console.log(`umurnya adalah ${employee.age} `); /* Backtick */
+      // console.log('Tinggal di ' + employee.address); /* petik tunggal */
+  </script>
+</body>
+
+</html>

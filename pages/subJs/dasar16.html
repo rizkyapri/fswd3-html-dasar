@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Conditionals</title>
+</head>
+
+<body>
+  <h3 style="text-align: center">Untuk mengetahui penggunaan dimohon klik kanan lalu inspect lalu pilih console</h3>
+  <h3 style="text-align: center">Atau bisa juga menggunakan shortcut F12 kemudian pilih console</h3>
+
+  <script>
+    /* kondisi if , else if , if else */
+    let input = prompt("10 + 5 = ");
+    if (input == 15) {
+      /* kondisi if */
+      alert("Benar!");
+    } else if (input >= 12 && input <= 14) {
+      alert("Hampir Benar!"); /* kondisi if else if */
+    } else {
+      /* kondisi if else */
+      alert("Salah!");
+    }
+
+    /* kondisi switch */
+    let warna = "biru";
+    /* membuat sebuah kondisi dengan switch dimana ada beberapa case dan mengisi perintah yang ingin di cetak */
+    switch (warna) {
+      case "hijau":
+        console.log("warna yang anda pilih " + warna);
+        console.log("Anda menyukai warna hijau!");
+        break;
+      case "biru":
+        console.log("warna yang anda pilih " + warna);
+        console.log("Anda menyukai warna Biru!");
+        break;
+      default:
+        console.log("Anda tidak tahu warna!");
+        break;
+    }
+  </script>
+</body>
+
+</html>

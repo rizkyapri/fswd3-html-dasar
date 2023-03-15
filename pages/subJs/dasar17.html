@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Perulangan</title>
+</head>
+
+<body>
+  <h3 style="text-align: center">Untuk mengetahui penggunaan dimohon klik kanan lalu inspect lalu pilih console</h3>
+  <h3 style="text-align: center">Atau bisa juga menggunakan shortcut F12 kemudian pilih console</h3>
+
+  <script>
+    /* perulangan for  */
+    console.log(`Perulangan For`);
+    for (let x = 1; x <= 5; x++) { /* mendeklarasikan variabel i dengan nilai 1 dan membuat perulangan */
+      /* i kurang dari sama dengan 5 dan increment kenaikan 1 di tiap iterasi nya */
+      if (x == 3) { /* Continue digunakan untuk meloncati iterasi sekarang dan melanjutkan ke iterasi selanjutnya */
+        continue;
+      }
+      console.log("ini adalah iterasi ke-" + x);
+    }
+
+    /* perulangan while */
+    console.log(`Perulangan while`);
+    let j = 1;
+    while (j <= 5) {
+      console.log(`ini adalah iterasi ke-${j}`);
+      j++;
+    }
+
+    /* perulangan Do while */
+    console.log(`Perulangan Do while`);
+    let i = 1;
+    do {
+      console.log(`ini adalah iterasi ke-${i}`);
+      if (i == 3) { /* pada bagian ini break digunakan untuk mengkontrol sebuah perulangan */
+        break;
+      }
+      i++;
+    } while (i <= 5)
+  </script>
+</body>
+
+</html>
