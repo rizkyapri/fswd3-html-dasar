@@ -1,0 +1,58 @@
+
+h1{
+    padding-top: 2em;
+    padding-bottom: 1em;
+    text-align: center;
+    font-weight: 90vh;
+}
+
+.masukan{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#todo{
+    width: 30em;
+    height: 3em;
+    border-radius: 5px;
+    margin-right: 16px;
+}
+
+.button{
+    width: 7em;
+    height: 3em;
+    border-radius: 5px;
+}
+
+.item-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.item-btn i{
+    color: rgb(8, 6, 139);
+    font-size: 18px;
+}
+
+.item{
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightskyblue;
+    width: auto;
+}
+.item p{
+    font-size: 16px;
+    font-weight: 500;
+    color: #111;
+    letter-spacing: 1px;
+}
+.item.completed p{
+    text-decoration: line-through;
+    color: #11111180;
+}
