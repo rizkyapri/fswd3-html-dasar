@@ -36,3 +36,11 @@ tasks.addEventListener('click', (e) => {
         localStorage.setItem('tasks', JSON.stringify(tasks.innerHTML));
     }
 })
+
+//coret item
+tasks.addEventListener('click', (e) => {
+    if (e.target.nodeName === "P") {
+        e.target.classList.toggle('crossed-out');
+        localStorage.setItem('tasks', JSON.stringify(tasks.innerHTML));
+    }
+})
