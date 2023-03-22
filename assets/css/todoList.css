@@ -1,61 +1,47 @@
-
-h1{
-    padding-top: 2em;
-    padding-bottom: 1em;
-    text-align: center;
-    font-weight: 90vh;
+#body{
+    background-color: #37306B;
 }
 
-.masukan{
-    height: auto;
+
+#h1 {
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: 1000;
+}
+
+form {
     display: flex;
     justify-content: center;
-    align-content: center;
-}
-
-#todo{
-    width: 30em;
-    height: 3em;
-    border-radius: 5px;
-    margin-right: 16px;
-}
-
-.button{
-    width: 7em;
-    height: 3em;
-    border-radius: 5px;
-}
-
-.item-btn{
-    display: flex;
-    align-items: center;
     gap: 10px;
 }
-.item-btn i{
-    color: rgb(8, 6, 139);
-    font-size: 18px;
+
+#todo {
+    list-style-type: none;
 }
 
-.item{
-    border-radius: 5px;
-    margin-bottom: 10px;
-    padding: 7px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightskyblue;
-    width: auto;
+li {
+    color: black;
 }
-.item p{
-    font-size: 16px;
-    font-weight: 500;
-    color: #111;
-    letter-spacing: 1px;
+
+.btn {
+    height: 50px; 
+    width: 90px;
 }
-.item.completed p{
+
+.teks{
+    width: 60%;
+}
+
+.text.done {
     text-decoration: line-through;
-    color: #11111180;
 }
-.item p.crossed-out {
-    text-decoration: line-through;
+
+.fa-pencil {
+    float: right;
+    margin-right: 10px;
+}
+
+.fa-circle-xmark {
+    float: right;
 }
