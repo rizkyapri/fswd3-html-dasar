@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* NAV */
+.logo{
+    display: inline;
+}
+
+#ulLogo{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4em;
+    background-color: #fff;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+/* NAV END */
+
+/* BLOGKU */
+.blogku{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 80px;
+    gap: 20px;
+    height: 190px;
+    background-color: #AEE2FF;
+    position: inherit;
+}
+.h1B{
+    padding-right: 400px;
+}
+
+#nama .blogku p{
+    padding-bottom: 10px;
+}
+/* BLOGKU END */
+
+/* CARD */
+/* card */
+main article .card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background:#fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #ccc;
+    width: 320px;
+}
+
+img{
+    padding-top: 10px;
+    width: 90%;
+    height: 60%;
+    border-radius: 5px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+main article .card p {
+    margin-left: 20px;
+    margin-right: 10px;
+    font-size: medium;
+}
+
+.bb{
+    display: flex;
+    align-items: center;
+    margin-top: 0;
+    background-color: #AEE2FF;
+    width: 300px;
+    height: 26px;
+}
+
+main article .card b {
+    margin-left: 20px;
+    font-size: medium;
+}
+
+.cardGroup{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 20px;
+    gap: 20px;
+    /* float:left; */
+}
+
+main {
+    display: flex;
+    background-color: #EFEFEF;
+}
+/* CARD END */
+
+/* artikel kiri */
+.cardh2{
+    margin-left: 20px;
+    padding-bottom: 12px;
+}
+.p1{
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+/* artikel kiri */
+
+/* artikel side right */
+#artikel2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 40px;
+}
+#card{
+    margin-top: 20px;
+}
+.teksRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+    padding-bottom: 20px;
+}
+
+main #artikel2 ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    gap: 10px;
+}
+
+main #artikel2 ul a{
+    text-decoration: none;
+}
+/* artikel side right end */
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+}
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 726px) {
+    header{
+        position: fixed;
+        width: 100%;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 8em;
+        background-color: #fff;
+    }
+    #ulLogo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+    #ulLogo li{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .card{
+        display: flex;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        background:#fff;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px #ccc;
+        width: 320px;
+        height: 400px;
+    }
+    .blogku{
+        padding-top: 30px;
+        gap: 20px;
+        height: 80px;
+        background-color: #AEE2FF;
+    }
+
+    main{
+        padding-top: 40px;
+        flex-direction: column;
+        gap: 20px;
+        background-color: #EFEFEF;
+    }
+
+    main article .card{
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .cardGroup{
+        display: flex;
+        align-content: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 100%;
+        margin-left: 20px;
+        gap: 20px;
+    }
+    img{
+        padding-top: 10px;
+        padding-left: 30px;
+        width: 90%;
+        height: 60%;
+        border-radius: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .bb{
+        display: flex;
+        align-items: center;
+        margin-top: 0;
+        background-color: #AEE2FF;
+        width: 280px;
+        height: 26px;
+        margin-left: 20px;
+    }
+
+    .p1{
+        margin-bottom: 20px;
+    }
+    .cardh2{
+        margin-left: 20px;
+        padding-bottom: 12px;
+    }
+
+    #artikel2{
+       justify-content: left;   
+       margin-bottom: 10px;     
+    }
+
+}
