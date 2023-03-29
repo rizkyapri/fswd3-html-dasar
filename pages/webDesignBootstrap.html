@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan Bootstrap</title>
+    <!-- link fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css bootstrap -->
+    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+</head>
+<!-- color -->
+<!-- bg-danger bg-primary bg-secondary bg-success -->
+
+<body>
+    <!-- navbar -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid text-center justify-content-center d-inline">
+                <div class="row ms-auto p-3">
+                    <div class="col-xl-7">
+                        <a href="#" class="text-decoration-none text-dark">Blogku</a>
+                    </div>
+                    <div class="col-xl-1">
+                        <a href="#" class="text-decoration-none text-dark">Home</a>
+                    </div>
+                    <div class="col-xl-1">
+                        <a href="#" class="text-decoration-none text-dark">About</a>
+                    </div>
+                    <div class="col-xl-1">
+                        <a href="#" class="text-decoration-none text-dark">Contact</a>
+                    </div>
+                </div>
+        </nav>
+    </header>
+
+    <!-- blogku -->
+    <div class="container-fluid">
+        <div class="row text-center bg-info">
+            <h1 class="col-xl-12">Rizky Apriansyah</h1>
+            <p class="col-xl-12">Blogku adalah blog yang berisi tentang tutorial dan informasi seputar dunia pemrograman
+            </p>
+        </div>
+    </div>
+    <!-- blogku end -->
+
+    <!-- Artikelku -->
+    <article>
+        <div class="container-fluid" style="background-color: #BDCDD6;">
+            <div class="row pt-4 d-xl-flex">
+                <div class="col-md-9">
+                    <h1 class="fs-5">Artikelku</h1>
+                    <p>Artikel seputar website</p>
+                    <div class="row d-flex ">
+                        <div class="col-md-4 mb-3">
+                            <div class="card mx-auto" style="width: 19rem;  ">
+                                <img src="../assets/img/logoRA.png" class="card-img-center p-3" alt="logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Logo RA</h5>
+                                    <p class="card-text">Belajar Membuat website dengan Bootstrap dan menggunakan
+                                        component dan utility</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card mx-auto" style="width: 19rem;">
+                                <img src="../assets/img/logoRA.png" class="card-img-center p-3" alt="logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Logo RA</h5>
+                                    <p class="card-text">Belajar Membuat website dengan Bootstrap dan menggunakan
+                                        component dan utility</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mb-3">
+                            <div class="card mx-auto" style="width: 19rem;">
+                                <img src="../assets/img/logoRA.png" class="card-img-center p-3" alt="logo">
+                                <div class="card-body">
+                                    <h5 class="card-title">Logo RA</h5>
+                                    <p class="card-text">Belajar Membuat website dengan Bootstrap dan menggunakan
+                                        component dan utility</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 mb-3">
+                    <h1 class="fs-5">Artikel Terkait</h1>
+                    <p>Artikel seputar website</p>
+                    <div class="row gap-2">
+                        <div class="col-xxl-2">
+                            <a href="#" class="text-decoration-none text-dark fw-bold" >Belajar HTML</a>
+                        </div>
+                        <div class="col-xxl-2">
+                            <a href="#" class="text-decoration-none text-dark fw-bold" >Belajar CSS</a>
+                        </div>
+                        <div class="col-xxl-2">
+                            <a href="#" class="text-decoration-none text-dark fw-bold" >Belajar Javascript</a>
+                        </div>
+                        <div class="col-xxl-2">
+                            <a href="#" class="text-decoration-none text-dark fw-bold" >Belajar PHP</a>
+                        </div>
+                        <div class="col-xxl-2">
+                            <a href="#" class="text-decoration-none text-dark fw-bold" >Belajar MySQL</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="text-center text-white" style="background-color: #f1f1f1;">
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Instagram -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="#!"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-instagram"></i
+            ></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/aprizky/"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/rizkyapri"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+          © 2023 Copyright :
+          <a class="text-dark" href="https://arkatama.id/" target="_blank">Arkatama</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+
+
+    <!-- script -->
+    <script src="../assets/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
